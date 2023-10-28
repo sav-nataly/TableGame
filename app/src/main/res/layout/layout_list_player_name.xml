@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/list_player_shape"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/list_player_name"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAllCaps="true"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete_player_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/img_cross"
+        android:backgroundTint="@color/black"
+        app:icon="@drawable/img_cross"
+        app:iconTint="#000000"
+        tools:text="delete button" />
+</LinearLayout>

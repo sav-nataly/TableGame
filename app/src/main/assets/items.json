@@ -1,0 +1,72 @@
+[
+    {
+      "type": "Boat",
+      "cost": 1000,
+      "number": 3,
+      "capacity": 1,
+      "luckyNumbers": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "type": "Camera",
+      "cost": 2000,
+      "number": 3,
+      "shotCost": 5000
+    },
+    {
+      "type": "Camera",
+      "cost": 6000,
+      "number": 2,
+      "shotCost": 10000
+    },
+    {
+      "type": "FirstAidKit",
+      "cost": 1000,
+      "number": 3
+    },
+    {
+      "type": "Gifts",
+      "cost": 1000,
+      "number": 4
+    },
+    {
+      "type": "Helmet",
+      "cost": 1000,
+      "number": 3
+    },
+    {
+      "type": "Horse",
+      "cost": 3000,
+      "number": 3
+    },
+    {
+      "type": "Revolver",
+      "cost": 3000,
+      "number": 3,
+      "luckyNumbers": [
+        5,
+        6
+      ],
+      "shotNumber": 6
+    },
+    {
+      "type": "Rifle",
+      "cost": 5000,
+      "number": 3,
+      "luckyNumbers": [
+        4,
+        5,
+        6
+      ],
+      "shotNumber": 4
+    },
+    {
+      "type": "SmokeBomb",
+      "cost": 1000,
+      "number": 3
+    }
+  ]

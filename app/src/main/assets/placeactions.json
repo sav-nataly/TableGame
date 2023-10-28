@@ -1,0 +1,34 @@
+[
+    {
+      "placeType": "BluePlace",
+      "actionType": "BluePlaceAction"
+    },
+    {
+      "placeType": "CampPlace",
+      "actionType": "CampPlaceAction"
+    },
+    {
+      "placeType": "GreenPlace",
+      "actionType": "GreenPlaceAction"
+    },
+    {
+      "placeType": "RedEnemyPlace",
+      "actionType": "RedEnemyPlaceAction"
+    },
+    {
+      "placeType": "RedMonsterPlace",
+      "actionType": "RedMonsterPlaceAction"
+    },
+    {
+      "placeType": "RedNativesPlace",
+      "actionType": "RedNativesPlaceAction"
+    },
+    {
+      "placeType": "YellowPlace",
+      "actionType": "YellowPlaceAction"
+    },
+    {
+      "placeType": "GreyPlace",
+      "actionType": "GreyPlaceAction"
+    }
+  ]

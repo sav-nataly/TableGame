@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#37AA9F"
+    android:orientation="horizontal"
+    android:screenOrientation="landscape"
+    tools:context=".view.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_menu"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#009688"
+            android:text="@string/lbl_start_game"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#009688"
+            android:text="@string/lbl_add_player"
+            app:cornerRadius="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/lbl_list_header"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_player"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/layout_list_player_name" />
+    </LinearLayout>
+
+</LinearLayout>

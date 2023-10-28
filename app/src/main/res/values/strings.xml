@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TableGame</string>
+    <string name="lbl_start_game">Начать игру</string>
+    <string name="lbl_add_player">Добавить игрока</string>
+    <string name="lbl_list_header">Добавленные игроки</string>
+    <string name="lbl_save">Сохранить</string>
+    <string name="lbl_cancel">Отмена</string>
+    <string name="lbl_player_name">Имя</string>
+    <string name="lbl_curr_player">Ход игрока: </string>
+    <string name="lbl_option_dialog_question">Что вы выберете?</string>
+    <string name="lbl_ready">Готово</string>
+    <string name="lbl_player_money">Денег:</string>
+    <string name="lbl_item_cost">Стоимость:</string>
+    <string name="lbl_item_amount">Количество:</string>
+    <string name="lbl_players">Игроки:</string>
+    <string name="lbl_items">Предметы:</string>
+    <string name="lbl_added">Добавлено:</string>
+    <string name="lbl_dice_num">На кубике выпало:</string>
+    <string name="lbl_new_player">Следующий игрок:</string>
+    <string name="lbl_green_place">Вы попали на зеленую клетку. Пробирайтесь через болото или защищайтесь от москитов.</string>
+    <string name="lbl_blue_place">Вы попали на синюю клетку. Выбирайте способ переправы.</string>
+    <string name="lbl_yellow_place">Вы попали на желтую клетку. Какая ситуация вас ждет?</string>
+    <string name="lbl_grey_place">Вы попали на серую клетку. В этот ход отдыхайте.</string>
+    <string name="lbl_red_enemy_place">Вы попали на красную клетку! Отстреливайтесь!</string>
+    <string name="lbl_red_natives_place">Вы попали на клетку туземцев! Отбивайтесь или подарите им что-нибудь!</string>
+    <string name="lbl_red_monster_place">Вы попали на клетку чудовища! Отстреливайтесь или снимайте на камеру!</string>
+    <string name="lbl_camp_place">Вы попали в лагерь! Выбирайте, что возьмете с собой.</string>
+    <string name="lbl_item_loss">Вы теряете </string>
+    <string name="lbl_pass_turn">Вы пропускаете ход.</string>
+    <string name="lbl_game_over">Вы выбываете из игры.</string>
+</resources>

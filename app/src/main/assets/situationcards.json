@@ -1,0 +1,50 @@
+[
+  {
+    "type": "ItemsFoundSituation",
+    "items": [
+      {
+        "type": "FirstAidKit",
+        "cost": 1000,
+        "number": 3
+      },
+      {
+        "type": "Gifts",
+        "cost": 1000,
+        "number": 4
+      },
+      {
+        "type": "Helmet",
+        "cost": 1000,
+        "number": 3
+      }
+    ]
+  },
+  {
+    "type": "ItemGiveSituation",
+    "item":
+      {
+        "type": "FirstAidKit",
+        "cost": 1000,
+        "number": 3
+      }
+  },
+  {
+    "type": "ItemTakeSituation",
+    "item":
+      {
+        "type": "FirstAidKit",
+        "cost": 1000,
+        "number": 3
+      }
+  },
+  {
+    "type": "ShootSituation",
+    "shootNumber": 2,
+    "canUseSmokeBomb": false
+  },
+  {
+    "type": "ShootSituation",
+    "shootNumber": 1,
+    "canUseSmokeBomb": true
+  }
+]

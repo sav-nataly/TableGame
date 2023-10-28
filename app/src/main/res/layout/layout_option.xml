@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="60dp"
+    android:background="@drawable/list_player_shape"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/list_option_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TEXTVIEW"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>
